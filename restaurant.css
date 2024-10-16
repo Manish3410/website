@@ -1,0 +1,308 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* home page */
+body{
+    background: rgba(0, 0, 0, 0.7) url("backgroundimg.jpg") center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container h1{
+    color:orangered;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.navbar ul,li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding:4px;
+    transition:0.5s;
+}
+.navbar ul li a:hover{
+    box-shadow:0 3px 50px orangered inset ;
+    padding:4px;
+}
+.navbar .reservation{
+    padding:8px;
+    background-color:orangered;
+}
+.content{
+    position:absolute;
+    color:#fff;
+    top:40%;
+    left:30%;
+}
+.content h3{
+    font-family:sans-serif;
+    font-size:20px;
+    margin-left:30%;
+}
+.content h1{
+    font-size:50px;
+}
+.content p{
+    text-align:center;
+    margin-top:17px;
+}
+.search{
+    position:absolute;
+    margin-top:22%;
+    margin-left:42%;
+}
+.search input{
+    outline:none;
+    border:none;
+    padding:10px 60px;
+    size:1em;
+    width:100%;
+}
+.submit{
+    position:absolute;
+    margin-top:27%;
+    margin-left:52%;
+}
+.submit a{
+    text-decoration: none;
+    color:#fff;
+    padding:12px 25px;
+    background-color:orangered;
+}
+/* ol  & li */
+
+h5{
+    color:orangered;
+    font-size:25px;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+ol li{
+    color:#fff;
+}
+
+.navbar .home,.menu, .gallery,.team,.contact,.about{
+    padding:8px;
+    background-color:orangered;
+}
+/*image */
+img {
+    height:200px;
+    width:200px;
+    image-rendering: auto;
+    padding:15px;
+}
+
+/* this is the css of reservation*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container2 {
+    max-width: 600px;
+    margin: auto;
+    background-blend-mode: darken;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container2 h1 {
+    text-align: center;
+    color:black;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* about us  css */
+
+.container3 {
+    width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.container3 h1 {
+    text-align: center;
+    color: red;
+}
+
+.container3 h2 {
+    color: #5cb85c;
+    margin-top: 20px;
+}
+
+.container3 p {
+    color: black;
+    line-height: 1.6;
+}
+
+.container3 a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+.container3 a:hover {
+    text-decoration: underline;
+}
+
+/* contact us */
+body{
+    font-family: Arial, sans-serif;
+}
+
+.container4{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container4 header{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007BFF;
+    color: white;
+}
+
+.container4 h1{
+    margin: 0;
+}
+
+.details{
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.container4  footer{
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* team css */
+
+.container5 header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container5 main {
+    padding: 20px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:transparent;
+}
+
+.team-member {
+    background: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.container5 footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* menu css */
+
+.container6{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container6 header{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007BFF;
+    color: white;
+}
+
+.container6 h1{
+    margin: 0;
+}
+.container6 h5{
+    color:orangered;
+    font-size:30px;
+    align:center;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+.container6 ol li{
+    color:black;
+}
